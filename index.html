@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Amatic+SC:wght@400;700&family=Bad+Script&family=Bebas+Neue&family=Calligraffitti&family=Covered+By+Your+Grace&family=Dancing+Script&family=EB+Garamond&family=Great+Vibes&family=Handlee&family=Inconsolata&family=Julius+Sans+One&family=Limelight&family=Lobster+Two&family=Major+Mono+Display&family=PT+Sans+Narrow&family=PT+Serif&family=Passions+Conflict&family=Patrick+Hand&family=Playfair+Display&family=Pompiere&family=Rancho&family=Roboto+Condensed:wght@300&family=Sacramento&family=Satisfy&family=Sofia+Sans+Extra+Condensed:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Amatic+SC:wght@400;700&family=Bad+Script&family=Bebas+Neue&family=Covered+By+Your+Grace&family=EB+Garamond&family=Great+Vibes&family=Handlee&family=Inconsolata&family=Julius+Sans+One&family=Lobster+Two&family=Major+Mono+Display&family=PT+Sans+Narrow&family=PT+Serif&family=Passions+Conflict&family=Patrick+Hand&family=Playfair+Display&family=Pompiere&family=Rancho&family=Roboto+Condensed:wght@300&family=Sacramento&family=Satisfy&family=Sofia+Sans+Extra+Condensed:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bad+Script&family=Bebas+Neue&family=Covered+By+Your+Grace&family=EB+Garamond&family=Great+Vibes&family=Handlee&family=Inconsolata&family=Julius+Sans+One&family=Lobster+Two&family=Major+Mono+Display&family=PT+Sans+Narrow&family=PT+Serif&family=Passions+Conflict&family=Patrick+Hand&family=Playfair+Display&family=Pompiere&family=Rancho&family=Roboto+Condensed:wght@300&family=Sacramento&family=Satisfy&family=Sofia+Sans+Extra+Condensed:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Amatic+SC:wght@400;700&family=Bad+Script&family=Bebas+Neue&family=Covered+By+Your+Grace&family=EB+Garamond&family=Great+Vibes&family=Handlee&family=Inconsolata&family=Julius+Sans+One&family=Lobster+Two&family=Major+Mono+Display&family=PT+Sans+Narrow&family=PT+Serif&family=Passions+Conflict&family=Patrick+Hand&family=Playfair+Display&family=Pompiere&family=Rancho&family=Roboto+Condensed:wght@300&family=Sacramento&family=Satisfy&family=Sofia+Sans+Extra+Condensed:wght@100&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <title>Cumple 15 Delfina</title>
+</head>
+
+<body>
+  
+  <div>
+    <img class="portada"  src="./imagenes/portada.jpg" alt="" srcset="">
+  </div>
+  
+ 
+ <audio id="audio" src="./Taylor Swift - Fifteen (Taylor's Version) [Instrumental Without Backing Vocals] [b3iJsxh8BPA].mp3"></audio>
+
+<div class="music-player" id="player">
+  <button class="play-btn" id="playBtn">►</button>
+</div>
+   
+  
+ </head>
+<body>
+
+  <div class="preloader-container" id="preloader">
+    <div class="flower-loader">
+      <div class="botanical-ring"></div>
+      <div class="petals">
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+      </div>
+      <div class="flower-center"></div>
+    </div>
+    <p class="loading-text">Cargando los xv de Delfi</p>
+  </div>
+
+
+
+  <div class="main">
+  
+    <section class="cuenta-regresiva">
+      <div class="cr-block">
+        <div class="cr-time">
+          <span id="cre-dia">
+            00
+          </span>
+        </div>
+        <div class="cr-desc">
+          Dias
+        </div>
+      </div>
+      <div class="cr-block">
+        <div class="cr-time">
+          <span id="cre-hora">
+            00
+          </span>
+        </div>
+        <div class="cr-desc">
+          Horas
+        </div>
+      </div>
+      <div class="cr-block">
+        <div class="cr-time">
+          <span id="cre-minuto">
+            00
+          </span>
+        </div>
+        <div class="cr-desc">
+          Minutos
+        </div>
+      </div>
+      <div class="cr-block">
+        <div class="cr-time">
+          <span id="cre-segundo">
+            00
+          </span>
+        </div>
+        <div class="cr-desc">
+          Segundo
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+<div class="loader">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+
+<br>
+
+
+
+<h1 class="Frase_inicio"> Con mucha emoción, te invito <br>
+   a compartir conmigo una noche <br> única, rodeada de personas importantes  <br>
+   para mí y de momentos que van a <br> quedar en el recuerdo. </h1>
+
+<br><br>
+
+
+    
+ <img class="fotouno" src="./imagenes/uno.jpg" alt="">
+
+  
+
+
+
+
+   <img class="parrafo1" src="./imagenes/FIESTA.png" alt="">
+
+
+   <img class="copas" src="./imagenes/COPAS.png" alt="">  
+
+<p class="info1">Día de la fiesta: 15 de Julio <br>
+Horario: 21:00 Hs <br> Lugar: La Rural</p>
+
+<div class="contenedor-mapa">
+ <button class="clik" id="btn">como llegar</button>
+</div>
+
+
+
+   <img class="confirmar" src="./imagenes/CONFIRMAR.png" alt="">
+
+<a href="https://wa.me/549?text=%20♡%20Te%20confirmo%20la%20asistencia%20a%20los%20XV%20de%20Delfi.%20 Soy%20...." target="_blank">
+  <img class="whatsap" src="./imagenes/whatsapp.png" alt="WhatsApp">
+</a>
+
+
+
+<p class="parrafo3">Confirmar al WhatSapp <br> Tiempo: 20 de Junio </p>
+
+
+
+  <img class="confirmar" src="./imagenes/VESTIMENTA.png" alt="">
+    <img class="percha" src="./imagenes/percha (1).png" alt="">  
+<p class="parrafo4"> ¡Sin reglas! <br>
+Traé tu mejor energía y muchas <br> ganas de pasarla bien.  </p>
+
+
+
+   <img class="musica" src="./imagenes/MUSICA.png" alt="">
+
+<img class="iconomusica" src="./imagenes/iconomusica.png" alt="">
+
+
+  
+  <p class="parrafo8">  ¿Qué canciones no pueden faltar <br>
+ en la fiesta? <br> 
+  
+<br><br><br>
+<form 
+  action="https://formsubmit.co/" 
+  method="POST"
+  class="rsvp-form"
+>
+
+  <!-- Configuración -->
+  <input type="hidden" name="_subject" value="Nueva confirmación de asistencia">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="table">
+
+  <label>Nombre de canción *</label>
+  <input type="text" name="Nombre" required>
+
+
+
+  <button type="submit">Enviar</button>
+
+</form>
+
+
+
+  <img class="confirmar" src="./imagenes/ESCANEA.png" alt="">
+      <img class="album" src="./imagenes/album.png" alt="">  
+
+      <p class="parrafo9">Tus fotos son parte del recuerdo. <br> Escaneá el código Qr <br> y compartime las tuyas. </p>
+    <img class="qr" src="./imagenes/9a68ca50bb2ca55d9c7d2262a187f9e8.jpg" alt="">  
+
+
+
+
+<br>
+
+
+ <img class="fotouno" src="./imagenes/6fdf949534c39c6a97338083832c9304.jpg" alt="">
+
+
+
+
+
+
+
+<p class="parrafo10">¡Te espero! </p>
+
+<img class="corazon" src="./imagenes/0fdc12f56f32b4a345c39626f72a02b1-removebg-preview.png" alt="">
+
+<img class="delfina" src="./imagenes/DELFINA.png" alt="">
+
+
+
+<div class="box__copyright">
+  <hr class="linea4">
+  <p>Sitio desarrollado por <b> <a
+        href=" https://www.instagram.com/invites/contact/?i=u1xzn8scfuha&utm_content=qbd7xox">
+        digit_invitaciones7</a></b></p>
+  </div>
+  <footer class="tecla">
+  
+  <a href="https://www.instagram.com/invites/contact/?i=u1xzn8scfuha&utm_content=qbd7xox" class="fa fa-instagram"></a>
+  <img class="logo" src="./imagenes/LOGO.png" alt="">
+  </footer>
+<script>
+  window.addEventListener('load', function() {
+    const preloader = document.getElementById('preloader');
+    // Añade la clase que oculta el preloader al terminar de cargar
+    preloader.classList.add('oculto');
+  });
+</script>
+
+<script>
+  const audio = document.getElementById("audio");
+  const playBtn = document.getElementById("playBtn");
+
+  playBtn.addEventListener("click", () => {
+    if (audio.paused) {
+      audio.play();
+      playBtn.textContent = "❚❚"; // pausa
+    } else {
+      audio.pause();
+      playBtn.textContent = "►"; // play
+    }
+  });
+</script>
+
+
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonym-ous"></script>
+  <script src="./main.js"></script>
+
+</body>
+
+</html>
